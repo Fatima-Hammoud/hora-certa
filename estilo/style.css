@@ -39,10 +39,10 @@ section h2 {
     
 }
 
-img {
-    display: block;
+div > img {
+    width: 50%;
     border-radius: 50%;
-    width: 300px;
+
     margin: auto;
     padding: 30px;
 }
