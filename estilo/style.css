@@ -40,9 +40,8 @@ section h2 {
 }
 
 
-div > img {
-    text-align: center;
-    width: 200px;
+img {
+    width: 150px;
     border-radius: 50%;
     margin: auto;
     padding: 30px;
