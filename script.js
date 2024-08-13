@@ -13,8 +13,8 @@ if (hora >= 0 && hora < 12) {
     msg.innerHTML += '<h2>Boa tarde!</h2>'
     img.src = 'tarde.jpg'
     document.body.style.background = '#b9846f'
-} else {
-    innerHTML += '<h2>Boa noite!</h2>'
+} else if (hora >= 18 && hora < 23) {
+    msg.innerHTML += '<h2>Boa noite!</h2>'
     img.src = 'noite.jpg'
     body.style.background = '#515154'
 }}
